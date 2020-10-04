@@ -1,0 +1,27 @@
+{
+  "name": "api-got",
+  "version": "1.0.0",
+  "description": "API de Game of Thrones",
+  "main": "got.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigomiliano/apiGameOfThrones.git"
+  },
+  "keywords": [
+    "game",
+    "of",
+    "thrones"
+  ],
+  "author": "Rodrigo Miliano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigomiliano/apiGameOfThrones/issues"
+  },
+  "homepage": "https://github.com/rodrigomiliano/apiGameOfThrones#readme",
+  "dependencies": {
+    "asoiaf-api": "^1.0.1"
+  }
+}
