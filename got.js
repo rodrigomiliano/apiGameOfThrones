@@ -3,13 +3,9 @@
 const obtenerPersonaje = require("./library");
 
 
-obtenerPersonaje("John Snow").then(    (response) =>{
-     response.character.forEach(element => {
-        console.log(character.name )  })
+obtenerPersonaje("Walder").then(character => {
+    console.log("Nombre del personaje: " + character.name );
                  
-     }
- 
-      
-    ).catch((error) =>{
-        console.log('error');
+    }).catch((error) =>{
+        console.log(error);
     });

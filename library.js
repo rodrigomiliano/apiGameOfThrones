@@ -3,7 +3,7 @@ const respuesta = require("request-promise");
 function obtenerPersonaje(nombrePersonaje){
 
     var options ={
-        curl: "https://www.anapioficeandfire.com/api/characters" + nombrePersonaje,
+        uri: "https://www.anapioficeandfire.com/api/characters/" + nombrePersonaje,
         json:true
     }
 
