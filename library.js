@@ -1,4 +1,5 @@
 const respuesta = require("request-promise");
+//const respuesta2 = require("request-promise");
 
 function obtenerPersonaje(nombrePersonaje){
 
@@ -9,8 +10,23 @@ function obtenerPersonaje(nombrePersonaje){
 
     return respuesta(options);
 
+};
+
+/*
+function obtenerCasa(nombreCasa){
+
+    var options ={
+        uri: "https://www.anapioficeandfire.com/api/houses/" + nombreCasa,
+        json:true
+    }
+
+    return respuesta2(options);
+
 }
+*/
+
 module.exports = obtenerPersonaje;
+//module.exports = obtenerCasa;
 
 
 
